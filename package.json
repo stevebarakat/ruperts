@@ -1,0 +1,33 @@
+{
+  "name": "@defnug6/ruperts",
+  "version": "1.0.0",
+  "private": false,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc && cp package.json README.md ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevebarakat/ruperts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevebarakat/ruperts/issues"
+  },
+  "homepage": "https://github.com/stevebarakat/ruperts#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.21",
+    "@types/styled-components": "^5.1.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "styled-components": "^5.3.1"
+  }
+}
